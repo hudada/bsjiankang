@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bsproperty">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.SENSOR_ENABLE" />
+    <uses-permission android:name="android.permission.SENSOR_INFO" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <receiver android:name=".broad.SlptServiceInstalledReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".service.ScreenService" />
+
+        <activity
+            android:name=".ui.UserMainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.bsdiy.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity android:name=".ui.LoadingActivity" />
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.RgActivity" />
+        <activity android:name=".ui.CiPaiActivity" />
+        <activity android:name=".ui.CiPaiInfoActivity" />
+        <activity android:name=".ui.ShareCiPaiActivity" />
+        <activity android:name=".ui.CiInfoActivity" />
+        <activity android:name=".ui.ShereCiActivity" />
+        <activity android:name=".ui.MyActivity" />
+        <activity android:name=".ui.WriteActivity" />
+        <activity android:name=".ui.ShouCangActivity" />
+        <activity android:name=".ui.MyCiActivity" />
+        <activity android:name=".ui.BMIActivity" />
+        <activity android:name=".ui.MoveActivity" />
+        <activity android:name=".ui.WebActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ddd"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/the_space"
+            android:layout_marginRight="@dimen/the_space"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/the_space"
+            android:textColor="#CCFFFFFF"
+            android:textSize="34sp"
+            android:text="卜算子"/>
+
+        <TextView
+            android:id="@+id/tv_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/the_space"
+            android:layout_marginRight="@dimen/the_space"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp"
+            android:text="     卜算子，词牌名，又名“卜算子令”“百尺楼”“眉峰碧”“楚天遥”等。以苏轼《卜算子·黄州定慧院寓居作》为正体。另有双调四十四字，前后段各四句、三仄韵；双调四十五字，前段四句两仄韵，后段四句三仄韵等变体。"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/the_space"
+            android:layout_marginRight="@dimen/the_space"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/the_space"
+            android:textColor="#CCFFFFFF"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="24sp"
+            android:maxLength="12"
+            android:text="咏梅"/>
+        <TextView
+            android:id="@+id/tv_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/the_space"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/the_space"
+            android:textColor="#CCFFFFFF"
+            android:textSize="16sp"
+            android:text="陆游"/>
+    </LinearLayout>
+        <TextView android:id="@+id/tv_05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/the_space"
+        android:layout_marginRight="@dimen/the_space"
+        android:layout_marginBottom="@dimen/the_space"
+        android:textColor="#CCFFFFFF"
+        android:textSize="18sp"
+        android:text="     驿外断桥边，寂寞开无主。已是黄昏独自愁，更著风和雨。无意苦争春，一任群芳妒。零落成泥碾作尘，只有香如故。"/>
+        <TextView
+            android:id="@+id/tv_06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/the_space"
+            android:layout_marginRight="@dimen/the_space"
+            android:textColor="#CCFFFFFF"
+            android:textSize="14sp"
+            android:text="     《卜算子·咏梅》是南宋词人陆游创作的一首词。这是一首咏梅词，上片集中写了梅花的困难处境，下片写梅花的灵魂及生死观。词人以物喻人，托物言志，以清新的情调写出了傲然不屈的梅花，暗喻了自己虽终生坎坷却坚贞不屈，达到了物我融一的境界，笔致细腻，意味深隽，是咏梅词中的绝唱。《卜算子·咏梅》是南宋词人陆游创作的一首词。这是一首咏梅词，上片集中写了梅花的困难处境，下片写梅花的灵魂及生死观。词人以物喻人，托物言志，以清新的情调写出了傲然不屈的梅花，暗喻了自己虽终生坎坷却坚贞不屈，达到了物我融一的境界，笔致细腻，意味深隽，是咏梅词中的绝唱。《卜算子·咏梅》是南宋词人陆游创作的一首词。这是一首咏梅词，上片集中写了梅花的困难处境，下片写梅花的灵魂及生死观。词人以物喻人，托物言志，以清新的情调写出了傲然不屈的梅花，暗喻了自己虽终生坎坷却坚贞不屈，达到了物我融一的境界，笔致细腻，意味深隽，是咏梅词中的绝唱。《卜算子·咏梅》是南宋词人陆游创作的一首词。这是一首咏梅词，上片集中写了梅花的困难处境，下片写梅花的灵魂及生死观。词人以物喻人，托物言志，以清新的情调写出了傲然不屈的梅花，暗喻了自己虽终生坎坷却坚贞不屈，达到了物我融一的境界，笔致细腻，意味深隽，是咏梅词中的绝唱。《卜算子·咏梅》是南宋词人陆游创作的一首词。这是一首咏梅词，上片集中写了梅花的困难处境，下片写梅花的灵魂及生死观。词人以物喻人，托物言志，以清新的情调写出了傲然不屈的梅花，暗喻了自己虽终生坎坷却坚贞不屈，达到了物我融一的境界，笔致细腻，意味深隽，是咏梅词中的绝唱。"/>
+    </LinearLayout>
+    </ScrollView>
+<Button
+    android:id="@+id/btn_01"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="分  享  词  牌"
+    android:textSize="18sp"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/the_space"
+    android:textColor="#CCFFFFFF"
+    android:background="#991251b7"/>
+</RelativeLayout>
+

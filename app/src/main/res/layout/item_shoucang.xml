@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:background="#00FFFFFF"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="@dimen/the_space"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/blue_bg" />
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:gravity="center_vertical"
+        android:text="江城子·乙卯正月二十日夜记梦夜记梦夜记梦"
+        android:textColor="#DDFFFFFF"
+        android:maxWidth="260dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:text="苏轼"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:maxWidth="100dp"
+        android:textColor="#DDFFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>
